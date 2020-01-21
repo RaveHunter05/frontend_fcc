@@ -1,0 +1,41 @@
+.body{
+    height:100vh;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: lightblue;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.twitter{
+    text-decoration: none;
+}
+
+.twitter2{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 2.5rem;
+    width: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.frase{
+    text-align: center;
+}
+
+.autor{
+    text-align: right;
+}
