@@ -19,7 +19,7 @@ function Calculator() {
         })
         
         p.then((valor)=>{
-            setCurrentValue(valor)
+            setCurrentValue(valor);
         })
 
     }
