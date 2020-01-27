@@ -1,0 +1,75 @@
+
+.container{
+    background: lightgreen;
+    height: 100vh;
+    widows: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background-color: black;
+    height: 31.4rem;
+    width: 21rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+    grid-template-columns: 5rem 5rem 5rem 5rem;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem ;
+    text-align: center;
+    grid-gap: 0.2rem;
+    color: white;
+    border: 1px solid black;
+}
+
+.calculator>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator>:not(.result):hover{
+    border: 0.2rem solid lightgray;
+}
+
+.calculator>*{
+    cursor: pointer;
+}
+
+.AC{
+    grid-column: 1/3;
+    background-color: #AC3939;
+}
+
+.zero{
+    grid-column:1/3;
+}
+
+.equal{
+   grid-column: 4/5;
+   grid-row: 5/7;
+   background: #034261;
+}
+
+.slash,.times, .minus, .plus{
+    background-color: #666666;
+}
+
+.seven, .eight, .nine, .four, .five, .six, .one, .two, .three, .zero, .point{
+    background-color: #4D4D4D;
+}
+
+.result{
+    flex-direction: column;
+    grid-column:1/5;
+    justify-content: end;
+    align-items: end;
+    cursor: text;
+}
+
+.laterResult{
+    color:#F8A101;
+}

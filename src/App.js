@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
+import './components/css/App.css'
 // import Machine from './random_quote_machine';
-import Markdown from './markdown';
+import Calculator from './components/js/calculator';
 
 function App() {
   
   return (
     <div>
-      <Markdown/>
+      <Calculator/>
     </div>
   );
 }
